@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begum Eryildiz Gokden - Software Engineer | React Native, TypeScript, Product-Focused</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Software Engineer specializing in React Native, TypeScript, and device-based software systems. 19+ years of professional experience building complex, hardware-integrated applications. Based in Amsterdam, Netherlands.">
+    <meta name="keywords" content="Software Engineer, React Native, TypeScript, Redux Toolkit, Android, Device-Based Systems, Hardware Integration, IoT, Offline-First Architecture, Amsterdam">
+    <meta name="author" content="Begum Eryildiz Gokden">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://begumeryildiz.github.io/">
+    <meta property="og:title" content="Begum Eryildiz Gokden - Software Engineer">
+    <meta property="og:description" content="Software Engineer specializing in React Native, TypeScript, and device-based software systems. Based in Amsterdam, Netherlands.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://begumeryildiz.github.io/">
+    <meta property="twitter:title" content="Begum Eryildiz Gokden - Software Engineer">
+    <meta property="twitter:description" content="Software Engineer specializing in React Native, TypeScript, and device-based software systems.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://begumeryildiz.github.io/">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Begum Eryildiz Gokden",
+      "url": "https://begumeryildiz.github.io",
+      "email": "begumeryildiz@gmail.com",
+      "telephone": "+31627178244",
+      "jobTitle": "Software Engineer",
+      "description": "Software Engineer specializing in React Native, TypeScript, and device-based software systems",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Amsterdam",
+        "addressCountry": "Netherlands"
+      },
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Istanbul University"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Anadolu University"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Ironhack"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/begumeryildiz",
+        "https://github.com/begumeryildiz"
+      ],
+      "knowsAbout": [
+        "React Native",
+        "TypeScript",
+        "Redux Toolkit",
+        "Device-Based Software Systems",
+        "Hardware Integration",
+        "Offline-First Architecture",
+        "Android Development"
+      ]
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        header {
+            border-bottom: 3px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.3em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.95em;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .pdf-download {
+            margin-top: 12px;
+        }
+
+        .pdf-download a {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+
+        .pdf-download a:hover {
+            background: #34495e;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+
+        .summary {
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        .experience-item, .project-item, .education-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 8px;
+        }
+
+        .job-title, .project-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .company {
+            color: #3498db;
+            font-weight: 600;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            white-space: nowrap;
+        }
+
+        .location {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 8px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .skill-category h3 {
+            font-size: 1em;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .skill-category ul {
+            margin-left: 0;
+            list-style: none;
+        }
+
+        .skill-category li:before {
+            content: "\25AA ";
+            color: #3498db;
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 20px;
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            a {
+                color: #333;
+                text-decoration: none;
+            }
+
+            .contact-info a:after {
+                content: none !important;
+            }
+
+            .pdf-download {
+                display: none;
+            }
+
+            @page {
+                margin: 1cm;
+            }
+        }
+
+        @page {
+            margin: 1cm;
+            size: A4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Begum Eryildiz Gokden</h1>
+            <div class="subtitle">Software Engineer | React Native · TypeScript · Product-Focused · Device-Based Systems</div>
+            <div class="contact-info">
+                <span>Amsterdam, Netherlands</span>
+                <span><a href="mailto:begumeryildiz@gmail.com">begumeryildiz@gmail.com</a></span>
+                <span>+31 62 717 82 44</span>
+                <span><a href="https://www.linkedin.com/in/begumeryildiz">linkedin.com/in/begumeryildiz</a></span>
+                <span><a href="https://github.com/begumeryildiz">github.com/begumeryildiz</a></span>
+            </div>
+            <div class="pdf-download">
+                <a href="Begum-Eryildiz-Gokden-CV.pdf" download>Download PDF</a>
+            </div>
+        </header>
+
+        <section class="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                Software Engineer with extensive experience building and maintaining complex, device-based software systems.
+                Over 19 years of professional experience, with the last 4+ years focused on full-time software engineering in production environments.
+                Specializing in React Native and TypeScript, developing custom application runtimes running on dedicated Android-based devices
+                involving offline-first architectures, complex state management, media playback, real-time input handling, and hardware/sensor integrations.
+                Closely involved in practical product and technical decisions driven by hands-on experience and ownership.
+                Takes responsibility for features end-to-end: from understanding the problem and proposing technical approaches to implementation, refinement, and long-term maintenance.
+                Additionally mentors UI/UX-focused interns and junior developers through code reviews, implementation support, and experience-based decision-making.
+            </p>
+        </section>
+
+        <section class="experience">
+            <h2>Professional Experience</h2>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Software Engineer (React Native / Product-Focused)</div>
+                        <div class="company">Fietslabyrint</div>
+                    </div>
+                    <div class="date">Dec 2022 - Present</div>
+                </div>
+                <div class="location">The Hague, South Holland, Netherlands</div>
+                <ul>
+                    <li>Working on a complex, device-based software platform running on dedicated Android-based hardware, focused on interactive, real-time user experiences</li>
+                    <li>Developing and maintaining a large-scale React Native and TypeScript codebase used in production environments, involving custom application runtimes</li>
+                    <li>Building and evolving features end-to-end, including technical design, implementation, performance optimization, and long-term maintenance</li>
+                    <li>Working extensively with offline-first systems, complex state management, media and video playback, real-time input handling, and hardware/sensor integrations</li>
+                    <li>Frequently involved in practical product and technical decision-making, particularly where technical constraints and real-world usage impact need to be considered</li>
+                    <li>Contributing to code quality through refactoring, TypeScript improvements, reusable abstractions, and consistent formatting and review practices</li>
+                    <li>Mentoring UI/UX-focused interns and junior developers through hands-on guidance, code reviews, and implementation support</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Full Stack Developer</div>
+                        <div class="company">Insightfy</div>
+                    </div>
+                    <div class="date">Mar 2023 - Aug 2024</div>
+                </div>
+                <div class="location">Amsterdam, North Holland, Netherlands</div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Founder of Delight Cubes</div>
+                        <div class="company">Delight Cubes by Kitchenella</div>
+                    </div>
+                    <div class="date">Jul 2020 - Nov 2022</div>
+                </div>
+                <div class="location">Amsterdam, North Holland, Netherlands</div>
+                <ul>
+                    <li>Managed the business for kitchenella.nl (Shopify e-commerce platform)</li>
+                    <li>Shipped edible art tarts to 11 European countries</li>
+                    <li>Managed the e-commerce backend and website</li>
+                    <li>Created and edited advertisement campaigns</li>
+                    <li>Created content and copy for social media channels (Facebook and Instagram) and email newsletter</li>
+                    <li>Grew social media following by 125%+ organically through targeted messaging and customer response analysis</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Co-Founder</div>
+                        <div class="company">Zoogi Software & E-commerce</div>
+                    </div>
+                    <div class="date">Oct 2014 - Nov 2018</div>
+                </div>
+                <div class="location">Istanbul, Turkey</div>
+                <ul>
+                    <li>Sold stock tracking software products and managed an e-commerce business as a sub-brand</li>
+                    <li>Managed the e-commerce platform and payment systems</li>
+                    <li>Contacted and communicated with customers</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Mathematics / Geometry Teacher</div>
+                        <div class="company">Various High Schools</div>
+                    </div>
+                    <div class="date">Sep 2011 - Jun 2016</div>
+                </div>
+                <div class="location">Istanbul, Turkey</div>
+                <ul>
+                    <li>Taught at various public and private high schools for 9th - 10th - 11th grades as a Mathematics and Geometry teacher</li>
+                    <li>Delivered lessons developing students' theoretical and applied mathematical skills</li>
+                    <li>Assigned homework, graded assignments and quizzes, and documented students' progress</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Product Manager, Contactless Payments Campaign</div>
+                        <div class="company">Akbank</div>
+                    </div>
+                    <div class="date">Jul 2007 - Aug 2011</div>
+                </div>
+                <div class="location">Istanbul, Turkey</div>
+                <ul>
+                    <li>Started the campaign for the integration of contactless payments</li>
+                    <li>Conceptualized, developed, tested, and launched new financial systems and products</li>
+                    <li>Oversaw the marketing and progress of existing products</li>
+                    <li>Increased contactless payments by 25%</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Core</h3>
+                    <ul>
+                        <li>React Native</li>
+                        <li>TypeScript</li>
+                        <li>Redux Toolkit</li>
+                        <li>Android Development</li>
+                        <li>Full Stack Development</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Specializations</h3>
+                    <ul>
+                        <li>Device-Based Software Systems</li>
+                        <li>Offline-First Architectures</li>
+                        <li>Media & Video Systems</li>
+                        <li>Hardware/Sensor Integration (IoT)</li>
+                        <li>Performance-Sensitive Systems</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Practices</h3>
+                    <ul>
+                        <li>End-to-End Feature Ownership</li>
+                        <li>Cross-Functional Collaboration</li>
+                        <li>Mentoring & Code Review</li>
+                        <li>Real-Time Input Handling</li>
+                        <li>Complex State Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Data Analysis Essentials Using Excel</li>
+                <li>IBM Analyzing Data with Python</li>
+                <li>Master Course in Tableau for Business Intelligence</li>
+                <li>Responsive Web Design</li>
+                <li>Professional Pastry</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Full Stack Web Development Program (Full-time)</div>
+                        <div class="company">Ironhack</div>
+                    </div>
+                    <div class="date">Jun 2022 - Aug 2022</div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Bachelor of Science - Mathematics</div>
+                        <div class="company">Istanbul University</div>
+                    </div>
+                    <div class="date">Sep 2002 - Jun 2007</div>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="experience-header">
+                    <div>
+                        <div class="job-title">Bachelor of Science - Economics</div>
+                        <div class="company">Anadolu University</div>
+                    </div>
+                    <div class="date">Sep 2004 - Jun 2008</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications">
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>Turkish:</strong> Native</li>
+                <li><strong>English:</strong> Professional Proficiency</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
